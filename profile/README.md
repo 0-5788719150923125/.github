@@ -4,26 +4,30 @@ Independent AI research, and the infrastructure it runs on. From the optimizer t
 
 **[repository](https://github.com/0-5788719150923125/praxis)** · **[live demo](https://arc.src.eco)**
 
-A framework for training and running small language models on hardware you own. More than fifty pluggable registries - optimizers, attention mechanisms, token routers, long-term memory, halting, losses - so a new architecture is a configuration rather than a rewrite. Local-first, peer-to-peer, and fault-tolerant by design.
+A language-model research framework, written from scratch. More than fifty pluggable registries - attention, routing, memory, embeddings, losses, optimizers - so nearly every component swaps by CLI flag, and a new architecture is a configuration rather than a rewrite. Implements dozens of recent papers alongside original ones, and its checkpoints drop into HuggingFace unmodified.
 
 ![The Praxis training dashboard](https://raw.githubusercontent.com/0-5788719150923125/praxis/HEAD/static/dashboard.webp)
 
-Ships with the dashboard above, a chat interface, an auto-generated map of every registry, and a research paper arguing why any of it matters.
+Around 140,000 lines of Python, near-daily since August 2024. Ships the dashboard above, a browser-tab distributed training swarm, and a LaTeX research paper generated from live code and run data, so the paper cannot drift from the source.
 
 ## platformer
 
 **[repository](https://github.com/0-5788719150923125/platformer)**
 
-Multi-account, multi-region cloud infrastructure as code. Two dozen service modules under one state-fragment configuration, from IAM audit reporting and golden AMI builds to a medical AI inference platform. Modules own their defaults, so a deployment describes the world rather than scripting it into being.
+A Terraform framework for multi-account, multi-region infrastructure. Services enable declaratively through composable YAML state fragments, and consumer modules declare what they need while a root orchestrator wires the providers - dependency inversion, in HCL. Around 20,000 lines across 27 modules, with a native test suite and its own generated docs.
+
+Distilled from production experience running thousands of EC2 instances across a global medical-imaging network. An archivist module scrubs and versions the codebase on every apply, which is how the repository was safely opened.
 
 ## also here
 
-- **[versus](https://github.com/0-5788719150923125/versus)** - an autonomous probabilistic-symbolic AI, prototyped as a Terraform module and backed by an OpenCog Atomspace.
-- **[one](https://github.com/0-5788719150923125/one)** - a federated neural network.
-- **[eve](https://github.com/0-5788719150923125/eve)** - neuro-symbolic AI, written in Scheme.
-- **[gai](https://github.com/0-5788719150923125/gai)** - gnomic artificial intelligence, built on the premise that sapience is a complex interaction of discrete processes.
-- **[zero](https://github.com/0-5788719150923125/zero)** - a 3D renderer written in JavaScript and drawn to the terminal. No GPU required.
+- **[ghost](https://github.com/0-5788719150923125/praxis/tree/main/axis/ghost)** - a deterministic music visualizer in Godot. Point it at an audio file and it renders a show seeded by the audio's own fingerprint, the same every time. Forty-three scenes, headless 4K export, and no generative AI in the render path. ([watch](https://youtu.be/-b2M7VSYIFU))
+- **[nutube](https://github.com/0-5788719150923125/praxis/tree/main/axis/nutube)** - a video client for Android whose recommendation algorithm runs on the device. Every card names the reason it surfaced.
+- **[src.eco](https://src.eco)** - a peer-to-peer communications platform and AI sandbox, live since 2020.
+- **[ode](https://github.com/0-5788719150923125/ode)** - language models from scratch in JavaScript. Transformers, RNNs and state-space models, with hand-rolled optimizers, samplers and tokenizers.
+- **[vtx](https://github.com/0-5788719150923125/vtx)** - a declarative, Dockerized platform for training small models across architectures, distributed over Petals and Hivemind.
+
+Two more live here without being public. **rift** is a workshop for books: one directory per book, holding the manuscript, its metadata, and the built PDF, EPUB and cover. **cv** is a data-driven resume owned end to end, one YAML file in and one static page out.
 
 ---
 
-**[Discord](https://discord.gg/bp3SuFae5M)** · **[YouTube](https://youtube.com/@The-Arc)** · **[The Source](https://src.eco)**
+**[Discord](https://discord.gg/bp3SuFae5M)** · **[YouTube](https://youtube.com/@The-Arc)**
