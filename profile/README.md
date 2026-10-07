@@ -10,6 +10,14 @@ A language-model research framework, written from scratch. More than fifty plugg
 
 Around 140,000 lines of Python, near-daily since August 2024. Ships the dashboard above, a browser-tab distributed training swarm, and a LaTeX research paper generated from live code and run data, so the paper cannot drift from the source.
 
+## ghost notes
+
+**[repository](https://github.com/0-5788719150923125/ghost-notes)** · **[watch](https://youtu.be/-b2M7VSYIFU)**
+
+An audiovisual framework in Godot, shaped as a notes app where a note becomes whatever is attached to it. With a song it is a spectral visualizer, procedural and deterministic, seeded by the audio's own fingerprint so the same song always draws the same show - with no generative model in the render path. With a script it is a reading, in a voice synthesized from first principles or by a small local neural one. With a brief it is a tarot episode made by AI agents, and with a clip it is a chroma-key effects editor. Any show exports to video. On a phone, it is a notes app and nothing more.
+
+Around 160,000 lines of GDScript, shaders and Python, built from registries the same way praxis is: 55 scenes, 22 visual layers, 8 physics forces, 21 masking effects, and media that change what the show is carried on - full frame, or the panels of a comic book flown over by a perspective camera. Every registry documents itself, and Godot is the only thing to install; the app provisions the rest.
+
 ## platformer
 
 **[repository](https://github.com/0-5788719150923125/platformer)**
@@ -20,7 +28,6 @@ Distilled from production experience running thousands of EC2 instances across a
 
 ## also here
 
-- **[ghost](https://github.com/0-5788719150923125/praxis/tree/main/axis/ghost)** - a deterministic music visualizer in Godot. Point it at an audio file and it renders a show seeded by the audio's own fingerprint, the same every time. Forty-three scenes, headless 4K export, and no generative AI in the render path. ([watch](https://youtu.be/-b2M7VSYIFU))
 - **[nutube](https://github.com/0-5788719150923125/praxis/tree/main/axis/nutube)** - a video client for Android whose recommendation algorithm runs on the device. Every card names the reason it surfaced.
 - **[src.eco](https://src.eco)** - a peer-to-peer communications platform and AI sandbox, live since 2020.
 - **[ode](https://github.com/0-5788719150923125/ode)** - language models from scratch in JavaScript. Transformers, RNNs and state-space models, with hand-rolled optimizers, samplers and tokenizers.
