@@ -16,6 +16,8 @@ Around 140,000 lines of Python, near-daily since August 2024. Ships the dashboar
 
 An audiovisual framework in Godot, shaped as a notes app where a note becomes whatever is attached to it. With a song it is a spectral visualizer, procedural and deterministic, seeded by the audio's own fingerprint so the same song always draws the same show - with no generative model in the render path. With a script it is a reading, in a voice synthesized from first principles or by a small local neural one. With a brief it is a tarot episode made by AI agents, and with a clip it is a chroma-key effects editor. Any show exports to video. On a phone, it is a notes app and nothing more.
 
+![Ghost Notes scene composition UI](https://raw.githubusercontent.com/0-5788719150923125/ghost-notes/HEAD/docs/showcase.webp)
+
 Around 160,000 lines of GDScript, shaders and Python, built from registries the same way praxis is: 55 scenes, 22 visual layers, 8 physics forces, 21 masking effects, and media that change what the show is carried on - full frame, or the panels of a comic book flown over by a perspective camera. Every registry documents itself, and Godot is the only thing to install; the app provisions the rest.
 
 ## platformer
