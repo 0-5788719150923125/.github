@@ -26,6 +26,8 @@ Around 160,000 lines of GDScript, shaders and Python, built from registries the 
 
 A Terraform framework for multi-account, multi-region infrastructure. Services enable declaratively through composable YAML state fragments, and consumer modules declare what they need while a root orchestrator wires the providers - dependency inversion, in HCL. Around 20,000 lines across 27 modules, with a native test suite and its own generated docs.
 
+![Platformer Terraform apply standardized output](https://raw.githubusercontent.com/0-5788719150923125/platformer/HEAD/static/apply.webp)
+
 Distilled from production experience running thousands of EC2 instances across a global medical-imaging network. An archivist module scrubs and versions the codebase on every apply, which is how the repository was safely opened.
 
 ## also here
