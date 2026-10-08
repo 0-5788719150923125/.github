@@ -28,7 +28,7 @@ A Terraform framework for multi-account, multi-region infrastructure. Services e
 
 ![Platformer Terraform apply standardized output](https://raw.githubusercontent.com/0-5788719150923125/platformer/HEAD/static/apply.webp)
 
-Distilled from production experience running thousands of EC2 instances across a global medical-imaging network. An archivist module scrubs and versions the codebase on every apply, which is how the repository was safely opened.
+Distilled from production experience managing tens of thousands of server instances, deployment pipelines, and cloud environments across a global medical-imaging network. An archivist module scrubs and versions the codebase on every apply, which is how the repository was safely open-sourced.
 
 ## also here
 
