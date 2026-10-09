@@ -1,4 +1,4 @@
-Independent AI research, and the infrastructure it runs on. From the optimizer to the deployment, all of it public.
+Independent AI research and sustainable infrastructure. From the kernel to the deployment, all of it public.
 
 ## praxis
 
